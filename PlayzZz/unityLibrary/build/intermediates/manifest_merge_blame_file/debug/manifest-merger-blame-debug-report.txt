@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:6:5-54
+12-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:6:19-51
+13    <uses-feature
+13-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:7:5-9:36
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:8:9-55
+15        android:required="false" />
+15-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:9:9-33
+16    <uses-feature
+16-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:10:5-12:36
+17        android:name="android.hardware.touchscreen"
+17-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:11:9-52
+18        android:required="false" />
+18-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:12:9-33
+19    <uses-feature
+19-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:13:5-15:36
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:14:9-63
+21        android:required="false" />
+21-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:15:9-33
+22    <uses-feature
+22-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:16:5-18:36
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:17:9-72
+24        android:required="false" />
+24-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:18:9-33
+25
+26    <application>
+26-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:20:5-62:19
+27        <activity
+27-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:21:9-28:56
+28            android:name="com.unity3d.player.UnityPlayerActivity"
+28-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:22:13-48
+29            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+29-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:23:13-194
+30            android:hardwareAccelerated="false"
+30-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:24:13-48
+31            android:launchMode="singleTask"
+31-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:25:13-44
+32            android:resizeableActivity="false"
+32-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:26:13-47
+33            android:screenOrientation="sensorLandscape"
+33-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:27:13-56
+34            android:theme="@style/UnityThemeSelector" />
+34-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:28:13-54
+35        <activity
+35-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:29:9-45:20
+36            android:name="com.unity3d.player.MainActivity"
+36-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:30:13-41
+37            android:exported="true"
+37-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:31:13-36
+38            android:theme="@style/Theme.AppCompat" >
+38-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:32:13-51
+39            <intent-filter>
+39-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:33:13-37:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:34:17-69
+40-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:34:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:36:17-77
+42-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:36:27-74
+43            </intent-filter>
+44
+45            <meta-data
+45-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:39:13-41:40
+46                android:name="unityplayer.UnityActivity"
+46-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:40:17-57
+47                android:value="true" />
+47-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:41:17-37
+48            <meta-data
+48-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:42:13-44:40
+49                android:name="android.notch_support"
+49-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:43:17-53
+50                android:value="true" />
+50-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:44:17-37
+51        </activity>
+52
+53        <meta-data
+53-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:47:9-49:33
+54            android:name="unity.splash-mode"
+54-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:48:13-45
+55            android:value="0" />
+55-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:49:13-30
+56        <meta-data
+56-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:50:9-52:36
+57            android:name="unity.splash-enable"
+57-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:51:13-47
+58            android:value="True" />
+58-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:52:13-33
+59        <meta-data
+59-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:53:9-55:37
+60            android:name="unity.allow-resizable-window"
+60-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:54:13-56
+61            android:value="False" />
+61-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:55:13-34
+62        <meta-data
+62-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:56:9-58:50
+63            android:name="notch.config"
+63-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:57:13-40
+64            android:value="portrait|landscape" />
+64-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:58:13-47
+65        <meta-data
+65-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:59:9-61:68
+66            android:name="unity.build-id"
+66-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:60:13-42
+67            android:value="3620551e-56ef-4016-be70-33c7c79e003b" />
+67-->C:\Users\Amm\Desktop\Poject\PlayzZz\unityLibrary\src\main\AndroidManifest.xml:61:13-65
+68    </application>
+69
+70</manifest>

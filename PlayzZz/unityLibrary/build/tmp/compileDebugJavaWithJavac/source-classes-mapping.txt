@@ -1,0 +1,11 @@
+com/unity3d/player/BuildConfig.java
+ com.unity3d.player.BuildConfig
+com/unity3d/player/MainActivity.java
+ com.unity3d.player.MainActivity
+ com.unity3d.player.MainActivity$1
+ com.unity3d.player.MainActivity$2
+ com.unity3d.player.MainActivity$3
+ com.unity3d.player.MainActivity$4
+com/unity3d/player/UnityPlayerActivity.java
+ com.unity3d.player.UnityPlayerActivity
+ com.unity3d.player.UnityPlayerActivity$1
